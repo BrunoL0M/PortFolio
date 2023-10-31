@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*{
+    color: #b2b6b8;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "cabin", sans-serif ;
+ 
+}
+.navegacion{
+
+    width: 100%;
+    background-color: #FF8E2B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    z-index: 10;
+}
+.logo{
+    caret-color: transparent;
+    color: #0D2137;
+    font-size: 30px;
+    text-align:left;
+    font-style: italic;
+}
+.logo::selection{
+    font-style: italic;
+}
+.menu{
+    display: flex;
+    padding-right: 20px;
+}
+.menu li{
+    caret-color: transparent;
+    list-style: none;
+    margin: 10px;
+}
+.menu li a{
+    color: #0D2137;
+    text-decoration-line: none;
+    font-weight: bold;
+    transition: all 0.05s ease;
+    caret-color: transparent;
+}
+.menu li a:hover{
+    caret-color: transparent;
+    padding: 5px 10px;
+    border-radius: 15px;     
+    background: #0D2137;
+    color: #FFF;
+    position: relative;
+}
+.contenido_de_bienvenida {
+    background-color: #0D2137;
+    position: relative;
+    text-align: center;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    caret-color: transparent;
+
+  }
+.name { 
+    margin-bottom: 10%;
+}
+.name h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 20%;
+}
+.Icono_direccion_abajo {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.1rem;
+    border: 2px solid #b2b6b8;
+    border-radius:100%;
+    margin-bottom: 5%;
+}
+.Icono_direccion_abajo a{
+    display: block;
+    text-decoration: none;
+    color: #d2d9db;
+    padding: 1rem;
+    color: #FF8E2B;
+}
+.icono_flecha {
+  
+    border-radius: 100%;
+    width: 5rem;
+    height: 5rem;
+    width: 80px;
+    height: 80px;
+}
+.informacion_personal_div{
+    width: 100%;
+    top: 100%;
+    background:#2D2942;
+    position: relative;
+    text-align: center;
+    z-index: 3;
+    height: 100vh;
+    caret-color: transparent;
+}
+.Perfil {
+    justify-content: center;
+    margin-top: 8%;
+}
+.nombre_y_profesion{
+    width: 200px;
+    margin-left: 45%;
+}
+
+.presentacion{
+    width: 670px;
+    height: 350px;
+    position: relative;
+    text-align: calc(20px);
+    left: 31%;
+    
+}
+/*Apartir de aqui es donde muestro las tecnologias que estudio*/
+.Tecnologias_que_manejo{
+    border-radius: 50px;
+    width: 450px;
+    height: 600px;
+    align-items: center;
+    padding-top: 15px;
+    background-color: #1A946F;
+    position: absolute;
+    top: 15%;
+    left: 2%;
+}
+.div_imagenes_de_lenguajes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 10px;
+}
+.tecnologias{
+    width: 150px ;
+    height: 150px;
+    padding: 10px;
+    margin: 1px 1px;
+    margin-left: 25px;
+  
+}
+/**/
+.Frameworks{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1A946F;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 3%;
+    top:20%;
+    border-radius: 50px;
+
+}
+.Base_Datos {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #1A946F;
+    width: 300px;
+    height: 300px;
+    padding-right: 20px;
+    position: absolute;
+    border-radius: 50px;
+    left: -5%;
+    top: 110%;
+}
+.Portafolio {
+    background-color: #182C37;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    caret-color: transparent;
+}
+.Mis_Proyectos {
+    font-size: 3rem;
+    padding: 15px;
+}
+.cartas {
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-top: 30px;
+    margin-right: 800px;
+}
+.carta {
+    background-color: #234851;
+    margin-right: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 10%;
+}
+.titulo {
+    font-size: 20px;
+    padding: 10px;
+}
+.A_la_pagina {
+    width: 100px;
+}
+.pie_pagina {
+    background-color: #FF8E2B;
+    position: relative;
+    text-align: center;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    caret-color: transparent;
+    padding-left: 15px;
+
+
+}
+.contacto {
+    padding-top: 10px;
+    width: 1500px;
+    height: 170px;
+    padding-left: 30px;
+    background-color: #0D2137;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.footer {
+    width: 1400px;
+    height: 90px;
+    background-color: #1A946F;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer_link {
+ 
+}
+
+
+.whatsapp_email {
+    background-color: #FFF;
+    width: 130px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.footer_redes_sociales {
+    background: #c9ccce;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+}
